@@ -71,7 +71,7 @@ args.train_dir = os.path.join(args.train_dir, args.suffix_name + "_train.pkl")
 args.dev_dir = os.path.join(args.dev_dir, args.suffix_name + "_dev.pkl")
 args.bert_config_file = os.path.join(args.bert_config_file, args.model_name, 'bert_config.json')
 args.vocab_file = os.path.join(args.vocab_file, args.model_name, 'vocab.txt')
-args.init_restore_dir = os.path.join(args.init_restore_dir, args.model_name, 'pytorch_model.pth')  # change this path to checkpoint file path when to the prediction
+args.init_restore_dir = os.path.join(args.init_restore_dir, args.model_name, 'pytorch_model.pth')
 args.checkpoint_dir = os.path.join(args.checkpoint_dir, args.model_name + "_" + args.suffix_name)
 args.test_log += "_" + args.model_name + "_" + args.suffix_name + ".txt"
 args = utils.check_args(args)
@@ -97,7 +97,7 @@ if n_gpu > 0:
 # initialize model
 print('init model...')
 utils.torch_show_all_params(model)
-utils.torch_init_model(model, args.init_restore_dir)
+utils.torch_init_model(model, args.init_restore_dir)  # load the saved model according to the checkpoint_dir when prediction
 if args.float16:
     model.half()
 model.to(device)
