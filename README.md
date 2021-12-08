@@ -6,7 +6,7 @@
 [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 
 
-## Intorduction:
+## Introduction:
 Inspired by the amazing effect of [Magi](https://magi.com/), we try to approach a more simple, brutal method to handle the open relation extraction problem, only using a pipeline including NER and RE.
 
 <br>
