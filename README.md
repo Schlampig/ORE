@@ -122,6 +122,8 @@ python learn_re.py
   - Zhang, N. , Deng, S. , Sun, Z. , Wang, G. , Chen, X. , Zhang, W. , Chen, H. . (2019). Long-tail Relation Extraction via Knowledge Graph Embeddings and Graph Convolution Networks. NAACL 2019. [paper](https://arxiv.org/abs/1903.01306v1).
   - Jianlin Su. A Hierarchical Relation Extraction Model with Pointer-Tagging Hybrid Structure. GitHub. [blog](https://kexue.fm/archives/6671)/[code](https://github.com/bojone/kg-2019).
   - Gabriel Stanovsky, Julian Michael, Luke Zettlemoyer, Ido Dagan. Supervised Open Information Extraction. NAACL 2018. [paper](https://www.researchgate.net/publication/325445833_Supervised_Open_Information_Extraction).
+* **blogs**: [技术总结：业务场景中的标签挖掘与开源概念标签知识库总结](https://mp.weixin.qq.com/s/hcoMO-o4qFcQMWQM88XcWg) | 刘焕勇 老刘说NLP 2022年02月17日
+
 
 <br>
 
